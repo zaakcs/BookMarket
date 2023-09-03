@@ -1,0 +1,145 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+/* Estilos para a página inicial */
+#index-container {
+  text-align: center;
+}
+
+#index-container p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+#index-container .button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #337ab7;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+#index-container .button:hover {
+  background-color: #23527c;
+}
+
+/* Estilos para a página de login e cadastro */
+.login-container,
+.register-container {
+  text-align: center;
+}
+
+.login-container h1,
+.register-container h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.login-container .form-group,
+.register-container .form-group {
+  margin-bottom: 20px;
+}
+
+.login-container .form-group label,
+.register-container .form-group label {
+  display: block;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.login-container .form-group input[type="text"],
+.login-container .form-group input[type="password"],
+.register-container .form-group input[type="text"],
+.register-container .form-group input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-container .button,
+.register-container .button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #337ab7;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.login-container .button:hover,
+.register-container .button:hover {
+  background-color: #23527c;
+}
+
+/* Estilos para a página de dashboard */
+.dashboard-container {
+  text-align: center;
+}
+
+.dashboard-container h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.dashboard-container p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.dashboard-container .button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #337ab7;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard-container .button:hover {
+  background-color: #23527c;
+}
+
+.ufrpe {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+
+.ufrpe {
+  max-width: 150px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  filter: none; /* Remova o filtro para que a imagem fique na cor original */
+}
